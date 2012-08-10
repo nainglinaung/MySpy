@@ -1,0 +1,3 @@
+[submodule "MySpy"]
+	path = MySpy
+	url = git://github.com/nyanlynnhtut/MySpy.git
