@@ -14,11 +14,11 @@ MySpy.version = "1.0.0";
 
 // Get Client's OS Type
 MySpy.getOS = function (param) {
-	if (param == undefined) {
-		param = {};
-		
-	}
+	
+	param = param || {};
+	
 	var pack_ios = param.pack_ios ? true : false;
+	
 	if (navigator.platform.indexOf("Win") != -1) {
 		return "Windows";
 	} else if (navigator.platform.indexOf("Linux") != -1){
